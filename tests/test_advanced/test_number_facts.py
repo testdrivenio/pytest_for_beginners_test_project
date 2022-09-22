@@ -15,9 +15,7 @@ class MockedResponse:
 def mock_get(*args, **kwargs):
     return MockedResponse({
         "text": "7 is the number of days in a week.",
-        "number": 7,
         "found": "true",
-        "type": "trivia"
     })
 
 
