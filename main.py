@@ -28,3 +28,4 @@ async def return_product(post_body: PostBody):
 @app.post("/division/")
 async def return_dividend(post_body: PostBody):
     return post_body.first_val / post_body.second_val
+
